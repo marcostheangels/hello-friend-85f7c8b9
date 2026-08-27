@@ -35,7 +35,7 @@ function EventoCard({ evento }: { evento: Evento }) {
       <div className="flex items-start justify-between gap-4">
         <div
           className="flex h-16 w-16 shrink-0 flex-col items-center justify-center rounded-xl text-primary-foreground"
-          style={{ backgroundImage: "var(--gradient-heat)" }}
+          style={{ backgroundImage: "var(--gradient-terra)" }}
         >
           <span className="font-display text-2xl leading-none">{evento.data.split(" ")[0]}</span>
           <span className="text-[11px] font-semibold tracking-widest">{evento.data.split(" ")[1]}</span>
