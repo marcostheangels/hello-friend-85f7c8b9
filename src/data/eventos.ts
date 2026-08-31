@@ -14,6 +14,18 @@ export const categorias = ["Todos", "Shows", "Festas", "Cultura", "Esportes", "G
 
 export const eventos: Evento[] = [
   {
+    id: "vitrine-sabadao-forro-2026-08-29",
+    titulo: "Sabadão do Forró",
+    categoria: "Shows",
+    data: "29 AGO",
+    hora: "A partir de 20h",
+    local: "Vitrine Shows e Eventos · Av. Francisco Peres, 161 - Guarujá",
+    preco: "R$ 20 mulheres · R$ 25 homens",
+    destaque: true,
+    descricao:
+      "Aqui a diversão não tem hora pra acabar. Seu rolê do final de semana começa na nossa casa de show! Atrações: Forro Xinela, Marcelo Moreno e Cid Souza. Melhor acústica da cidade, pista de dança ampla e ambiente climatizado.",
+  },
+  {
     id: "1",
     titulo: "Montes Claros Sertanejo Fest",
     categoria: "Shows",
